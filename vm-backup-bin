@@ -24,5 +24,8 @@ do
 done
 
 echo $DATESTMP >> $LOGFILE
-zabbix_sender -z 192.168.2.168 -s "$(hostname)" -k vmbackup.success -o 1
+
+#I send a value to zabbix just so I get a text if it doesn't go through. Optional. 
+#zabbix_sender -z 192.168.2.168 -s "$(hostname)" -k vmbackup.success -o 1
+
 

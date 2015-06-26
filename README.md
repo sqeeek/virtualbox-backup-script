@@ -25,3 +25,5 @@ Example salt state file included.
 
 ***
 Thrown together in a single evening, messy and done wrong I'm sure, but it works. 
+
+Note: commented out my zabbix_sender line - I just send a value to zabbix every time it runs, so I get an alert if it goes more than a week without getting a value
