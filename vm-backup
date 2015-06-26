@@ -1,0 +1,4 @@
+#!/bin/bash
+vbuser=vboxwebsrv
+bkpath=/backups/rnet-backup/vm-backup/
+su -c "vm-backup-bin $bkpath" -s /bin/bash $vbuser
